@@ -10,7 +10,7 @@ class App extends React.Component {
           < BoilerplateComponent/>
         </p>
         <p>
-          < BoilerplateComponent color="red"/>
+          < BoilerplateComponent color={"red"}/>
         </p>
       </div>
     );
