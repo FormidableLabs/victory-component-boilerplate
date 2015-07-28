@@ -1,7 +1,7 @@
 [![Travis Status][trav_img]][trav_site]
 
 
-React Component Boilerplate
+Radium Component Boilerplate
 ===========================
 
 Formidable Labs flavored React component boilerplate. This is a set of opinions

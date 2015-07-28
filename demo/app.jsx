@@ -6,7 +6,12 @@ class App extends React.Component {
   render() {
     return (
       <div className="demo">
-        < BoilerplateComponent />
+        <p>
+          < BoilerplateComponent/>
+        </p>
+        <p>
+          < BoilerplateComponent color="red"/>
+        </p>
       </div>
     );
   }
