@@ -1,18 +1,10 @@
 [![Travis Status][trav_img]][trav_site]
 
 
-Radium Component Boilerplate
+Victory Component Boilerplate
 ===========================
 
-Formidable Labs flavored React component boilerplate. This is a set of opinions
-on how to start a React component.
-
-## Make it yours!
-
-The top level component in this boilerplate repo is called
-`BoilerplateComponent`. You probably want to change that. Remember to update
-`src/index.js`, `webpack.config.js`, and `webpack.config.dev.js`to reflect your
-naming changes!
+Boilerplate for developing a Victory Component!
 
 ## The Generator
 
