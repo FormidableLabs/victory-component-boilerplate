@@ -17,7 +17,7 @@ module.exports = {
   },
 
   cache: true,
-  devtool: "eval-source-map",
+  devtool: "source-map",
   entry: {
     app: ["./demo/app.jsx"]
   },
@@ -33,10 +33,13 @@ module.exports = {
       {
         test: /\.jsx?$/,
         exclude: [/node_modules/],
-        loaders: ["babel-loader?stage=0"]
+        loader: "babel"
+      }, {
+        test: /\.css$/,
+        loader: "style!css"
       }, {
         test: /\.(png|jpg)$/,
-        loader: "url-loader?limit=8192"
+        loader: "url?limit=8192"
       }
     ]
   },
