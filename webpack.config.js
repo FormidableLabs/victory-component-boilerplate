@@ -31,10 +31,13 @@ module.exports = {
       {
         test: /\.jsx?$/,
         exclude: [/node_modules/],
-        loader: "babel-loader?stage=0"
+        loader: "babel"
+      }, {
+        test: /\.css$/,
+        loader: "style!css"
       }, {
         test: /\.(png|jpg)$/,
-        loader: "url-loader?limit=8192"
+        loader: "url?limit=8192"
       }
     ]
   },
