@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define(["react"], factory);
 	else if(typeof exports === 'object')
-		exports["BoilerplateComponent"] = factory(require("react"));
+		exports["VictoryComponentBoilerplate"] = factory(require("react"));
 	else
-		root["BoilerplateComponent"] = factory(root["React"]);
+		root["VictoryComponentBoilerplate"] = factory(root["React"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_2__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -57,7 +57,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	"use strict";
 	
 	module.exports = {
-	  BoilerplateComponent: __webpack_require__(1)
+	  VictoryComponentBoilerplate: __webpack_require__(1)
 	};
 
 /***/ },
@@ -72,7 +72,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 	
-	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 	
@@ -84,16 +84,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var BoilerplateComponent = (function (_React$Component) {
-	  _inherits(BoilerplateComponent, _React$Component);
+	var VictoryComponentBoilerplate = (function (_React$Component) {
+	  _inherits(VictoryComponentBoilerplate, _React$Component);
 	
-	  function BoilerplateComponent() {
-	    _classCallCheck(this, BoilerplateComponent);
+	  function VictoryComponentBoilerplate() {
+	    _classCallCheck(this, VictoryComponentBoilerplate);
 	
-	    _get(Object.getPrototypeOf(BoilerplateComponent.prototype), "constructor", this).apply(this, arguments);
+	    _get(Object.getPrototypeOf(VictoryComponentBoilerplate.prototype), "constructor", this).apply(this, arguments);
 	  }
 	
-	  _createClass(BoilerplateComponent, [{
+	  _createClass(VictoryComponentBoilerplate, [{
 	    key: "render",
 	    value: function render() {
 	      return _react2["default"].createElement(
@@ -104,10 +104,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  }]);
 	
-	  return BoilerplateComponent;
+	  return VictoryComponentBoilerplate;
 	})(_react2["default"].Component);
 	
-	exports["default"] = BoilerplateComponent;
+	exports["default"] = VictoryComponentBoilerplate;
 	module.exports = exports["default"];
 
 /***/ },
@@ -120,4 +120,4 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ ])
 });
 ;
-//# sourceMappingURL=boilerplate-component.js.map
+//# sourceMappingURL=victory-component-boilerplate.js.map
