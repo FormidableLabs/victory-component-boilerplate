@@ -3,7 +3,6 @@ language: node_js
 node_js:
   - "0.10"
   - "0.12"
-  # https://github.com/FormidableLabs/victory-component-boilerplate/issues/53
   #- "4.2"
 
 # Use container-based Travis infrastructure.
