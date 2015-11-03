@@ -1,3 +1,4 @@
 module.exports = {
-  BoilerplateComponent: require("./components/boilerplate-component")
+  VictoryComponentBoilerplate:
+    require("./components/victory-component-boilerplate")
 };
