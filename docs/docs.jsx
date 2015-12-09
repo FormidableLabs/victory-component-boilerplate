@@ -12,7 +12,7 @@ class Docs extends React.Component {
       <div>
         <Ecology
           overview={require("!!raw!./ecology.md")}
-          source={require("!!docgen!../src/components/victory-line")[0]}
+          source={require("!!docgen!../src/components/victory-component-boilerplate")[0]}
           scope={{React, ReactDOM, VictoryComponentBoilerplate: require("../src/components/victory-component-boilerplate")}}
           playgroundtheme="elegant" />
         <Style rules={VictoryTheme}/>
