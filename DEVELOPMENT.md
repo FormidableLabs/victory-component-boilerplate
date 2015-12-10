@@ -60,7 +60,7 @@ if (process.env.NODE_ENV !== "production") {
 }
 ```
 
-Replace `console.warn` in the condtional + method call as appropriate.
+Replace `console.warn` in the conditional + method call as appropriate.
 
 Breaking this down:
 
@@ -157,10 +157,10 @@ coverage/
 sure that you have a very modern `npm` binary:
 
 ```sh
-$ npm install -g npm
+$ npm install -g npm@latest
 ```
 
-Built files in `dist/` should **not** be committeed during development or PRs.
+Built files in `dist/` should **not** be committed during development or PRs.
 Instead we _only_ build and commit them for published, tagged releases. So
 the basic workflow is:
 
