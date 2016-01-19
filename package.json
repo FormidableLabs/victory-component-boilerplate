@@ -1,6 +1,6 @@
 {
   "name": "victory-component-boilerplate",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "victory component boilerplate",
   "main": "lib/index.js",
   "repository": {
@@ -15,16 +15,15 @@
   "scripts": {
     "postinstall": "builder run npm:postinstall",
     "preversion": "builder run npm:preversion",
-    "version": "builder run npm:version",
+    "version": "builder run npm:version && git add dist && git commit --amend",
     "test": "builder run npm:test"
   },
   "dependencies": {
     "builder": "^2.2.0",
-    "builder-victory-component": "~0.0.5",
-    "radium": "^0.14.3"
+    "builder-victory-component": "~0.1.2"
   },
   "devDependencies": {
-    "builder-victory-component-dev": "~0.0.5",
+    "builder-victory-component-dev": "~0.1.2",
     "chai": "^3.2.0",
     "mocha": "^2.3.3",
     "react": "^0.14.0",
