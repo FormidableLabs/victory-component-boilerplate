@@ -175,11 +175,10 @@ $ npm version major|minor|patch -m "Version %s - INSERT_REASONS"
 
 # ... the `dist/` and `lib/` directories are now built, `package.json` is
 # updated, and the appropriate files are committed to git (but unpushed).
-#
+
 # *Note*: `lib/` is uncommitted, but built and must be present to push to npm.
 
-# Check that everything looks good in last commit and push.
-$ git diff HEAD^ HEAD
+# Push `dist` and the new tag to GitHub.
 $ git push && git push --tags
 # ... the project is now pushed to GitHub and available to `bower`.
 
@@ -195,7 +194,7 @@ please review:
 * [`npm version`](https://docs.npmjs.com/cli/version): Runs verification,
   builds `dist/` and `lib/` via `scripts` commands.
     * Our scripts also run the applicable `git` commands, so be very careful
-      when running out `version` commands.
+      when running our `version` commands.
 * [`npm publish`](https://docs.npmjs.com/cli/publish): Uploads to NPM.
     * **NOTE**: We don't _build_ in `prepublish` because of the
       [`npm install` runs `npm prepublish` bug](https://github.com/npm/npm/issues/3059)
