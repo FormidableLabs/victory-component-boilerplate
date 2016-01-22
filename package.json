@@ -20,7 +20,11 @@
   },
   "dependencies": {
     "builder": "^2.2.0",
-    "builder-victory-component": "~0.1.2"
+    "builder-victory-component": "~0.1.2",
+    "radium": "~0.16.2"
+  },
+  "peerDependencies": {
+    "react": "0.14.x"
   },
   "devDependencies": {
     "builder-victory-component-dev": "~0.1.2",
