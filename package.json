@@ -15,7 +15,7 @@
   "scripts": {
     "postinstall": "builder run npm:postinstall",
     "preversion": "builder run npm:preversion",
-    "version": "builder run npm:version && git add dist && git commit --amend",
+    "version": "builder run npm:version && git add dist && git commit -m \"Commit 'dist/' for publishing\"",
     "test": "builder run npm:test"
   },
   "dependencies": {
